@@ -1,0 +1,9 @@
+{
+  "buildCommand": "pip install -r requirements.txt",
+  "startCommand": "uvicorn src.main:app --host 0.0.0.0 --port $PORT",
+  "envVars": {
+    "TWILIO_ACCOUNT_SID": "your_twilio_account_sid",
+    "TWILIO_AUTH_TOKEN": "your_twilio_auth_token",
+    "TWILIO_PHONE_NUMBER": "+1234567890"
+  }
+}

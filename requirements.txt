@@ -1,0 +1,7 @@
+fastapi==0.136.1
+uvicorn==0.46.0
+sqlmodel==0.0.38
+pydantic==2.13.4
+pydantic-settings==2.14.1
+twilio==9.10.9
+python-dotenv==1.2.2
